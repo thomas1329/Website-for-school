@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="maimai_progect.Site1" %>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+   
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+             
+     
+
+        <style>
+            .navbar {
+    width: 100%;
+    background-color:lavender;
+    overflow: auto;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+
+
+     </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body dir="rtl" >
+    <form id="form1" runat="server">
+        <div >
+          <h1 id="theh" style="color:red; text-align: center">Miami Heath</h1>
+   
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+        </div>
+    </form>
+      
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿#theh {
+    text-align: center;
+}
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial;
+    background-color: burlywood;
+    background-image: url(Miami-Heat-logo.png);
+    background-position: inherit;
+    width: 100vw;
+    display: flex;
+}
+
+.navbar {
+    width: 60%;
+    background-color: chartreuse;
+    overflow: auto;
+}
+
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 33%;
+        text-align: center;
+    }
+
+        .navbar a:hover {
+            background-color: lightblue;
+        }
+
+    .navbar .active {
+        background-color: firebrick;
+    }
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
